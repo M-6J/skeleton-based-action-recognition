@@ -1,0 +1,10 @@
+data/*
+
+*.pyc
+__pycache__/
+
+TensorRT-8.6.1.6*
+
+install_cuda_dev.sh
+
+models/yolo11x-pose.pt

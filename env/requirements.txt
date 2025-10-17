@@ -1,0 +1,30 @@
+# Deep Learning
+torch==2.3.1
+torchvision==0.18.1
+torchaudio==2.3.1
+
+# Computer Vision
+ultralytics==8.3.214
+opencv-python==4.12.0.88
+
+# Data Processing
+numpy==2.2.6
+pandas==2.3.3
+
+# Visualization
+matplotlib==3.10.7
+seaborn==0.13.2
+
+# ML Utils
+scikit-learn==1.7.2
+tqdm==4.66.4
+
+# Quantization
+onnx==1.19.1
+onnxruntime==1.23.1
+tensorrt==8.6.1
+pycuda==2025.1.2
+
+# Others
+pyyaml==6.0.1
+pillow==10.3.0

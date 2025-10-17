@@ -1,0 +1,223 @@
+TRT-8601-EntropyCalibration2
+keypoints: 3c030b0e
+/Reshape_output_0: 3c030b0e
+(Unnamed Layer* 11) [Constant]_output: 3b2a9e56
+(Unnamed Layer* 12) [Shuffle]_output: 3b2a9e56
+/embedding/MatMul_output_0: 3c988483
+(Unnamed Layer* 14) [Constant]_output: 3abca6cb
+(Unnamed Layer* 15) [Shuffle]_output: 3abca6cb
+/embedding/Add_output_0: 3c884af8
+(Unnamed Layer* 21) [Constant]_output: 3c010a14
+/pos_encoder/Slice_output_0: 3c010a14
+/pos_encoder/Add_output_0: 3ca35170
+/transformer/layers.0/self_attn/Transpose_output_0: 3ca35170
+(Unnamed Layer* 56) [Constant]_output: 3b4cea89
+(Unnamed Layer* 57) [Shuffle]_output: 3b4cea89
+/transformer/layers.0/self_attn/MatMul_output_0: 3d2bc0da
+(Unnamed Layer* 59) [Constant]_output: 3ae4aabc
+(Unnamed Layer* 60) [Shuffle]_output: 3ae4aabc
+/transformer/layers.0/self_attn/Add_output_0: 3d281903
+/transformer/layers.0/self_attn/Reshape_2_output_0: 3d281903
+/transformer/layers.0/self_attn/Unsqueeze_1_output_0: 3d281903
+/transformer/layers.0/self_attn/Transpose_1_output_0: 3d281903
+/transformer/layers.0/self_attn/Squeeze_1_output_0: 3d281903
+/transformer/layers.0/self_attn/Gather_3_output_0: 3d2d79ad
+/transformer/layers.0/self_attn/Gather_4_output_0: 3d11ce9a
+/transformer/layers.0/self_attn/Gather_5_output_0: 3cdc432d
+/transformer/layers.0/self_attn/Reshape_3_output_0: 3d2d79ad
+/transformer/layers.0/self_attn/Transpose_2_output_0: 3d2d79ad
+/transformer/layers.0/self_attn/Reshape_4_output_0: 3d11ce9a
+/transformer/layers.0/self_attn/Transpose_3_output_0: 3d11ce9a
+/transformer/layers.0/self_attn/Reshape_5_output_0: 3cdc432d
+/transformer/layers.0/self_attn/Transpose_4_output_0: 3cdc432d
+/transformer/layers.0/self_attn/Reshape_6_output_0: 3d2d79ad
+/transformer/layers.0/self_attn/Reshape_7_output_0: 3d11ce9a
+/transformer/layers.0/self_attn/Reshape_8_output_0: 3cdc432d
+/transformer/layers.0/self_attn/Cast_2_output_0: 3e810a14
+/transformer/layers.0/self_attn/Sqrt_output_0: 3d367d3d
+(Unnamed Layer* 167) [Constant]_output: 3c010a14
+/transformer/layers.0/self_attn/Div_1_output_0: 3ab67d3d
+/transformer/layers.0/self_attn/Cast_3_output_0: 3ab67d3d
+/transformer/layers.0/self_attn/Transpose_5_output_0: 3d11ce9a
+/transformer/layers.0/self_attn/Sqrt_1_output_0: 3b59047a
+(Unnamed Layer* 172) [Shuffle]_output: 3b59047a
+/transformer/layers.0/self_attn/Mul_1_output_0: 3c91dff0
+/transformer/layers.0/self_attn/Sqrt_2_output_0: 3b59047a
+(Unnamed Layer* 175) [Shuffle]_output: 3b59047a
+/transformer/layers.0/self_attn/Mul_2_output_0: 3c75379e
+/transformer/layers.0/self_attn/MatMul_1_output_0: 3e355f3d
+(Unnamed Layer* 178) [Softmax]_output: 3ba24e21
+/transformer/layers.0/self_attn/MatMul_2_output_0: 3cc1f332
+/transformer/layers.0/self_attn/Transpose_6_output_0: 3cc1f332
+/transformer/layers.0/self_attn/Reshape_9_output_0: 3cc1f332
+(Unnamed Layer* 188) [Constant]_output: 3adeacdb
+(Unnamed Layer* 189) [Matrix Multiply]_output: 3cd394df
+(Unnamed Layer* 190) [Constant]_output: 3a743664
+(Unnamed Layer* 191) [Shuffle]_output: 3a743664
+/transformer/layers.0/self_attn/Gemm_output_0: 3cd57398
+/transformer/layers.0/self_attn/Reshape_10_output_0: 3cd57398
+/transformer/layers.0/self_attn/Transpose_7_output_0: 3cd57398
+/transformer/layers.0/Add_output_0: 3d15128d
+/transformer/layers.0/norm1/ReduceMean_output_0: 3b8da441
+/transformer/layers.0/norm1/Sub_output_0: 3d15a884
+(Unnamed Layer* 206) [Shuffle]_output: 3c810a14
+/transformer/layers.0/norm1/Pow_output_0: 3d78a071
+/transformer/layers.0/norm1/ReduceMean_1_output_0: 3c6c5382
+(Unnamed Layer* 210) [Shuffle]_output: 33a9226d
+/transformer/layers.0/norm1/Add_output_0: 3c6c542b
+/transformer/layers.0/norm1/Sqrt_output_0: 3c2ebff3
+/transformer/layers.0/norm1/Div_output_0: 3d04291f
+(Unnamed Layer* 214) [Constant]_output: 3c131aed
+(Unnamed Layer* 215) [Shuffle]_output: 3c131aed
+/transformer/layers.0/norm1/Mul_output_0: 3d0823fb
+(Unnamed Layer* 217) [Constant]_output: 3a8a23ba
+(Unnamed Layer* 218) [Shuffle]_output: 3a8a23ba
+/transformer/layers.0/norm1/Add_1_output_0: 3d12ad5d
+(Unnamed Layer* 220) [Constant]_output: 3b1bf4a9
+(Unnamed Layer* 221) [Shuffle]_output: 3b1bf4a9
+/transformer/layers.0/linear1/MatMul_output_0: 3d8764ed
+(Unnamed Layer* 223) [Constant]_output: 3acae442
+(Unnamed Layer* 224) [Shuffle]_output: 3acae442
+/transformer/layers.0/linear1/Add_output_0: 3d878a6f
+/transformer/layers.0/Relu_output_0: 3d53de76
+(Unnamed Layer* 227) [Constant]_output: 3b0cec5a
+(Unnamed Layer* 228) [Shuffle]_output: 3b0cec5a
+/transformer/layers.0/linear2/MatMul_output_0: 3dd20527
+(Unnamed Layer* 230) [Constant]_output: 3a1b6273
+(Unnamed Layer* 231) [Shuffle]_output: 3a1b6273
+/transformer/layers.0/linear2/Add_output_0: 3dd345a7
+/transformer/layers.0/Add_1_output_0: 3dee015a
+/transformer/layers.0/norm2/ReduceMean_output_0: 3b242835
+/transformer/layers.0/norm2/Sub_output_0: 3de67608
+(Unnamed Layer* 237) [Shuffle]_output: 3c810a14
+/transformer/layers.0/norm2/Pow_output_0: 3f522990
+/transformer/layers.0/norm2/ReduceMean_1_output_0: 3e74c5e1
+(Unnamed Layer* 241) [Shuffle]_output: 33a9226d
+/transformer/layers.0/norm2/Add_output_0: 3e74c5e9
+/transformer/layers.0/norm2/Sqrt_output_0: 3d40b845
+/transformer/layers.0/norm2/Div_output_0: 3d07be18
+(Unnamed Layer* 245) [Constant]_output: 3c124eb7
+(Unnamed Layer* 246) [Shuffle]_output: 3c124eb7
+/transformer/layers.0/norm2/Mul_output_0: 3d107dc9
+(Unnamed Layer* 248) [Constant]_output: 39e7c0ec
+(Unnamed Layer* 249) [Shuffle]_output: 39e7c0ec
+/transformer/layers.0/norm2/Add_1_output_0: 3d12924a
+/transformer/layers.1/self_attn/Transpose_output_0: 3d12924a
+(Unnamed Layer* 268) [Constant]_output: 3b144bbe
+(Unnamed Layer* 269) [Shuffle]_output: 3b144bbe
+/transformer/layers.1/self_attn/MatMul_output_0: 3d7e6249
+(Unnamed Layer* 271) [Constant]_output: 3a87e63f
+(Unnamed Layer* 272) [Shuffle]_output: 3a87e63f
+/transformer/layers.1/self_attn/Add_output_0: 3d6dc68a
+/transformer/layers.1/self_attn/Reshape_2_output_0: 3d6dc68a
+/transformer/layers.1/self_attn/Unsqueeze_1_output_0: 3d6dc68a
+/transformer/layers.1/self_attn/Transpose_1_output_0: 3d6dc68a
+/transformer/layers.1/self_attn/Squeeze_1_output_0: 3d6dc68a
+/transformer/layers.1/self_attn/Gather_3_output_0: 3d7ff3a2
+/transformer/layers.1/self_attn/Gather_4_output_0: 3d82b428
+/transformer/layers.1/self_attn/Gather_5_output_0: 3d383995
+/transformer/layers.1/self_attn/Reshape_3_output_0: 3d7ff3a2
+/transformer/layers.1/self_attn/Transpose_2_output_0: 3d7ff3a2
+/transformer/layers.1/self_attn/Reshape_4_output_0: 3d82b428
+/transformer/layers.1/self_attn/Transpose_3_output_0: 3d82b428
+/transformer/layers.1/self_attn/Reshape_5_output_0: 3d383995
+/transformer/layers.1/self_attn/Transpose_4_output_0: 3d383995
+/transformer/layers.1/self_attn/Reshape_6_output_0: 3d7ff3a2
+/transformer/layers.1/self_attn/Reshape_7_output_0: 3d82b428
+/transformer/layers.1/self_attn/Reshape_8_output_0: 3d383995
+/transformer/layers.1/self_attn/Cast_2_output_0: 3e810a14
+/transformer/layers.1/self_attn/Sqrt_output_0: 3d367d3d
+(Unnamed Layer* 376) [Constant]_output: 3c010a14
+/transformer/layers.1/self_attn/Div_1_output_0: 3ab67d3d
+/transformer/layers.1/self_attn/Cast_3_output_0: 3ab67d3d
+/transformer/layers.1/self_attn/Transpose_5_output_0: 3d82b428
+/transformer/layers.1/self_attn/Sqrt_1_output_0: 3b59047a
+(Unnamed Layer* 381) [Shuffle]_output: 3b59047a
+/transformer/layers.1/self_attn/Mul_1_output_0: 3cd73a96
+/transformer/layers.1/self_attn/Sqrt_2_output_0: 3b59047a
+(Unnamed Layer* 384) [Shuffle]_output: 3b59047a
+/transformer/layers.1/self_attn/Mul_2_output_0: 3cdbd10c
+/transformer/layers.1/self_attn/MatMul_1_output_0: 3f0fb5b2
+(Unnamed Layer* 387) [Softmax]_output: 3c014e6d
+/transformer/layers.1/self_attn/MatMul_2_output_0: 3d30e07f
+/transformer/layers.1/self_attn/Transpose_6_output_0: 3d30e07f
+/transformer/layers.1/self_attn/Reshape_9_output_0: 3d30e07f
+(Unnamed Layer* 397) [Constant]_output: 3ac8213c
+(Unnamed Layer* 398) [Matrix Multiply]_output: 3d835007
+(Unnamed Layer* 399) [Constant]_output: 3a9602bd
+(Unnamed Layer* 400) [Shuffle]_output: 3a9602bd
+/transformer/layers.1/self_attn/Gemm_output_0: 3d861f7e
+/transformer/layers.1/self_attn/Reshape_10_output_0: 3d861f7e
+/transformer/layers.1/self_attn/Transpose_7_output_0: 3d861f7e
+/transformer/layers.1/Add_output_0: 3d9a6920
+/transformer/layers.1/norm1/ReduceMean_output_0: 3a6a1417
+/transformer/layers.1/norm1/Sub_output_0: 3d997ac4
+(Unnamed Layer* 415) [Shuffle]_output: 3c810a14
+/transformer/layers.1/norm1/Pow_output_0: 3f00e403
+/transformer/layers.1/norm1/ReduceMean_1_output_0: 3db5e3e8
+(Unnamed Layer* 419) [Shuffle]_output: 33a9226d
+/transformer/layers.1/norm1/Add_output_0: 3db5e405
+/transformer/layers.1/norm1/Sqrt_output_0: 3cd759a7
+/transformer/layers.1/norm1/Div_output_0: 3cfebf8e
+(Unnamed Layer* 423) [Constant]_output: 3c106684
+(Unnamed Layer* 424) [Shuffle]_output: 3c106684
+/transformer/layers.1/norm1/Mul_output_0: 3d0c26ed
+(Unnamed Layer* 426) [Constant]_output: 3aab8a08
+(Unnamed Layer* 427) [Shuffle]_output: 3aab8a08
+/transformer/layers.1/norm1/Add_1_output_0: 3d0c5030
+(Unnamed Layer* 429) [Constant]_output: 3b03b155
+(Unnamed Layer* 430) [Shuffle]_output: 3b03b155
+/transformer/layers.1/linear1/MatMul_output_0: 3d62f901
+(Unnamed Layer* 432) [Constant]_output: 3ad624d6
+(Unnamed Layer* 433) [Shuffle]_output: 3ad624d6
+/transformer/layers.1/linear1/Add_output_0: 3d6e3004
+/transformer/layers.1/Relu_output_0: 3d3b4305
+(Unnamed Layer* 436) [Constant]_output: 3ac16551
+(Unnamed Layer* 437) [Shuffle]_output: 3ac16551
+/transformer/layers.1/linear2/MatMul_output_0: 3dabf4f3
+(Unnamed Layer* 439) [Constant]_output: 3a6a7a8a
+(Unnamed Layer* 440) [Shuffle]_output: 3a6a7a8a
+/transformer/layers.1/linear2/Add_output_0: 3dbde61d
+/transformer/layers.1/Add_1_output_0: 3de2438c
+/transformer/layers.1/norm2/ReduceMean_output_0: 3a57c260
+/transformer/layers.1/norm2/Sub_output_0: 3dfb4346
+(Unnamed Layer* 446) [Shuffle]_output: 3c810a14
+/transformer/layers.1/norm2/Pow_output_0: 3f391196
+/transformer/layers.1/norm2/ReduceMean_1_output_0: 3e4e51a9
+(Unnamed Layer* 450) [Shuffle]_output: 33a9226d
+/transformer/layers.1/norm2/Add_output_0: 3e4e51b7
+/transformer/layers.1/norm2/Sqrt_output_0: 3d83698b
+/transformer/layers.1/norm2/Div_output_0: 3cfc46e6
+(Unnamed Layer* 454) [Constant]_output: 3c0ebcd9
+(Unnamed Layer* 455) [Shuffle]_output: 3c0ebcd9
+/transformer/layers.1/norm2/Mul_output_0: 3d09bcaa
+(Unnamed Layer* 457) [Constant]_output: 39ded86a
+(Unnamed Layer* 458) [Shuffle]_output: 39ded86a
+/transformer/layers.1/norm2/Add_1_output_0: 3d075cfc
+/norm/ReduceMean_output_0: 38a3d6db
+/norm/Sub_output_0: 3d074c54
+(Unnamed Layer* 463) [Shuffle]_output: 3c810a14
+/norm/Pow_output_0: 3dc9a576
+/norm/ReduceMean_1_output_0: 3c078e73
+(Unnamed Layer* 467) [Shuffle]_output: 33a9226d
+/norm/Add_output_0: 3c078eca
+/norm/Sqrt_output_0: 3c03f71b
+/norm/Div_output_0: 3d04fa6d
+(Unnamed Layer* 471) [Constant]_output: 3c1c7cf5
+(Unnamed Layer* 472) [Shuffle]_output: 3c1c7cf5
+/norm/Mul_output_0: 3d245580
+(Unnamed Layer* 474) [Constant]_output: 3a0df368
+(Unnamed Layer* 475) [Shuffle]_output: 3a0df368
+/norm/Add_1_output_0: 3d284b69
+/ReduceMean_output_0: 3d0bdfbd
+(Unnamed Layer* 478) [Constant]_output: 3b09a585
+(Unnamed Layer* 479) [Matrix Multiply]_output: 3da26777
+(Unnamed Layer* 480) [Constant]_output: 3a9f6590
+(Unnamed Layer* 481) [Shuffle]_output: 3a9f6590
+/classifier/classifier.0/Gemm_output_0: 3d9b8b27
+/classifier/classifier.1/Relu_output_0: 3d9db6e7
+(Unnamed Layer* 484) [Constant]_output: 3b273179
+(Unnamed Layer* 485) [Matrix Multiply]_output: 3e0ca989
+(Unnamed Layer* 486) [Constant]_output: 3a35717f
+(Unnamed Layer* 487) [Shuffle]_output: 3a35717f
+logits: 3e0c7980

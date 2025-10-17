@@ -1,0 +1,80 @@
+TRT-8601-EntropyCalibration2
+keypoints: 3c010a14
+/Reshape_output_0: 3c010a14
+/Transpose_output_0: 3c010a14
+(Unnamed Layer* 14) [Shuffle]_output: 3c010a14
+(Unnamed Layer* 15) [Convolution]_output: 3cc73755
+/network/network.0/conv1/Conv_output_0: 3cc73755
+/network/network.0/Slice_output_0: 3cc73755
+(Unnamed Layer* 50) [Shuffle]_output: 3cc73755
+(Unnamed Layer* 51) [Scale]_output: 3d397548
+/network/network.0/bn1/BatchNormalization_output_0: 3d397548
+/network/network.0/relu1/Relu_output_0: 3d2f854f
+(Unnamed Layer* 60) [Shuffle]_output: 3d2f854f
+(Unnamed Layer* 61) [Convolution]_output: 3dd3a94f
+/network/network.0/conv2/Conv_output_0: 3dd3a94f
+/network/network.0/Slice_1_output_0: 3dd3a94f
+(Unnamed Layer* 96) [Shuffle]_output: 3dd3a94f
+(Unnamed Layer* 97) [Scale]_output: 3d94b6c4
+/network/network.0/bn2/BatchNormalization_output_0: 3d94b6c4
+/network/network.0/relu2/Relu_output_0: 3d4ee90d
+(Unnamed Layer* 106) [Shuffle]_output: 3c010a14
+(Unnamed Layer* 107) [Convolution]_output: 3d1dd205
+/network/network.0/downsample/Conv_output_0: 3d1dd205
+/network/network.0/Add_output_0: 3d468e5e
+/network/network.0/relu/Relu_output_0: 3d4e8dde
+(Unnamed Layer* 119) [Shuffle]_output: 3d4e8dde
+(Unnamed Layer* 120) [Convolution]_output: 3daa3ee6
+/network/network.1/conv1/Conv_output_0: 3daa3ee6
+/network/network.1/Slice_output_0: 3db36069
+(Unnamed Layer* 155) [Shuffle]_output: 3db36069
+(Unnamed Layer* 156) [Scale]_output: 3d69db2a
+/network/network.1/bn1/BatchNormalization_output_0: 3d69db2a
+/network/network.1/relu1/Relu_output_0: 3d73a231
+(Unnamed Layer* 165) [Shuffle]_output: 3d73a231
+(Unnamed Layer* 166) [Convolution]_output: 3e63c7d5
+/network/network.1/conv2/Conv_output_0: 3e63c7d5
+/network/network.1/Slice_1_output_0: 3e63c7d5
+(Unnamed Layer* 201) [Shuffle]_output: 3e63c7d5
+(Unnamed Layer* 202) [Scale]_output: 3d5eec82
+/network/network.1/bn2/BatchNormalization_output_0: 3d5eec82
+/network/network.1/relu2/Relu_output_0: 3d36511b
+(Unnamed Layer* 211) [Shuffle]_output: 3d4e8dde
+(Unnamed Layer* 212) [Convolution]_output: 3d98db0e
+/network/network.1/downsample/Conv_output_0: 3d98db0e
+/network/network.1/Add_output_0: 3dbb76ea
+/network/network.1/relu/Relu_output_0: 3d92a029
+(Unnamed Layer* 224) [Shuffle]_output: 3d92a029
+(Unnamed Layer* 225) [Convolution]_output: 3e578a30
+/network/network.2/conv1/Conv_output_0: 3e578a30
+/network/network.2/Slice_output_0: 3e578a30
+(Unnamed Layer* 260) [Shuffle]_output: 3e578a30
+(Unnamed Layer* 261) [Scale]_output: 3d6e1876
+/network/network.2/bn1/BatchNormalization_output_0: 3d6e1876
+/network/network.2/relu1/Relu_output_0: 3d613591
+(Unnamed Layer* 270) [Shuffle]_output: 3d613591
+(Unnamed Layer* 271) [Convolution]_output: 3eb873db
+/network/network.2/conv2/Conv_output_0: 3eb873db
+/network/network.2/Slice_1_output_0: 3eb873db
+(Unnamed Layer* 306) [Shuffle]_output: 3eb873db
+(Unnamed Layer* 307) [Scale]_output: 3d754243
+/network/network.2/bn2/BatchNormalization_output_0: 3d754243
+/network/network.2/relu2/Relu_output_0: 3d7337a2
+(Unnamed Layer* 316) [Shuffle]_output: 3d92a029
+(Unnamed Layer* 317) [Convolution]_output: 3e3ae12b
+/network/network.2/downsample/Conv_output_0: 3e3ae12b
+/network/network.2/Add_output_0: 3e40e197
+/network/network.2/relu/Relu_output_0: 3df320d0
+/classifier/classifier.0/GlobalAveragePool_output_0: 3d5a1d9f
+/classifier/classifier.1/Flatten_output_0: 3d5a1d9f
+(Unnamed Layer* 331) [Constant]_output: 3b0712ba
+(Unnamed Layer* 332) [Matrix Multiply]_output: 3e428ace
+(Unnamed Layer* 333) [Constant]_output: 3a68f5bc
+(Unnamed Layer* 334) [Shuffle]_output: 3a68f5bc
+/classifier/classifier.2/Gemm_output_0: 3e571ce9
+/classifier/classifier.3/Relu_output_0: 3e58fd74
+(Unnamed Layer* 337) [Constant]_output: 3b369dca
+(Unnamed Layer* 338) [Matrix Multiply]_output: 3e93a4ec
+(Unnamed Layer* 339) [Constant]_output: 3a3d25e8
+(Unnamed Layer* 340) [Shuffle]_output: 3a3d25e8
+logits: 3eacedde
