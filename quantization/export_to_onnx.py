@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 # quantization/export_to_onnx.py
 import os
 import sys

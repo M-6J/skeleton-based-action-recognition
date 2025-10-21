@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 # quantization/benchmark_all.py
 import os
 import sys

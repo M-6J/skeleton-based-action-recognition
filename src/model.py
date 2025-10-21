@@ -1,7 +1,3 @@
-"""
-GRU (Gated Recurrent Unit): 예를 들어 프레임이 30이면, 1에서 공잡음, 2에서 공던짐, 3에서 공날아감
-                            기존 + 새로운 내용으로, 순차적으로 읽으며 중요한거만 기억하는 시간적 패턴 학습 유닛
-"""
 # src/model.py
 import torch
 import torch.nn as nn

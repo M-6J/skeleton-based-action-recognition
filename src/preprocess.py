@@ -1,6 +1,5 @@
+# src/preprocess.py
 # 비디오 → Keypoints 추출 → .npy 저장
-# 왜? = YOLO 추론은 느림 → 매 epoch마다 반복하면 비효율 → 한 번만 실행하고 저장
-
 """
     ① 비디오 열기
     ② 30프레임 균등 샘플링

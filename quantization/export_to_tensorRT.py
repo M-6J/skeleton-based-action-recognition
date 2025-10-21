@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 # quantization/export_to_tensorrt.py
 import os
 import sys
